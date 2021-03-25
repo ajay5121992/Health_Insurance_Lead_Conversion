@@ -17,3 +17,27 @@ Demographics (city, age, region etc.)
 Information regarding holding policies of the customer
 
 Recommended Policy Information
+
+
+
+
+Data Dictionary of historical data:-
+
+Variable	               Definition
+
+ID                         Unique Identifier for a row
+City_Code	                 Code for the City of the customers
+Region_Code	               Code for the Region of the customers
+Accomodation_Type	         Customer Owns or Rents the house
+Reco_Insurance_Type	       Joint or Individual type for the recommended insurance  
+Upper_Age	                 Maximum age of the customer 
+Lower _Age	               Minimum age of the customer
+Is_Spouse	                 If the customers are married to each other (in case of joint insurance) 
+Health_Indicator           Encoded values for health of the customer
+Holding_Policy_Duration	   Duration(in years) of holding policy(policy that cust has already subscribed to with the cmp)
+Holding_Policy_Type        Type of holding policy
+Reco_Policy_Cat	           Encoded value for recommended health insurance
+Reco_Policy_Premium	       Annual Premium (INR) for the recommended health insurance
+Response (Target)	
+0 : Customer did not show interest in the recommended policy,
+1 : Customer showed interest in the recommended policy
